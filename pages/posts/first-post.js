@@ -2,9 +2,11 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 
+import Layout from '../../components/layout'
+
 const FirstPost = () => {
   return (
-    <>
+    <Layout>
       <Head>
         <title>First Post</title>
       </Head>
@@ -20,7 +22,7 @@ const FirstPost = () => {
         width={432}
         alt="pic"
       />
-    </>
+    </Layout>
   )
 }
 
